@@ -28,6 +28,11 @@ public class StringCalculatorTest {
         Assertions.assertEquals(3, add);
     }
 
+    @Test
+    void addTest2() {
+        int add = calculator.add("1,2,3,4");
+        Assertions.assertEquals(10, add);
+    }
 
 }
 
